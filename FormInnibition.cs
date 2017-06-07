@@ -42,7 +42,7 @@ namespace IsoMetall
             // Material
             if (this.mainForm.coilUpper == null)
             {
-                this.labelCoilUpperLeft.Text = "-";
+                this.labelCoilUpperLeft.Text = "--";
                 this.labelCoilUpperRal.Text = "-";
             }
             else
