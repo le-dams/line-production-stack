@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{ED26EF3C-2305-4254-A4F3-E5E4438B9637}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FormCoil.cs">
+    <Files>
+      <File FileName="Alarm.cs" Line="1" Column="1" />
+      <File FileName="FormCoil.cs" Line="115" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

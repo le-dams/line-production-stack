@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ED26EF3C-2305-4254-A4F3-E5E4438B9637}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IsoMetall</RootNamespace>
+    <AssemblyName>IsoMetall</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LibUsbDotNet">
+      <HintPath>lib\LibUsbDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alarm.cs" />
+    <Compile Include="Coil.cs" />
+    <Compile Include="Device.cs" />
+    <Compile Include="FormCoil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCoil.Designer.cs">
+      <DependentUpon>FormCoil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormController.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormController.Designer.cs">
+      <DependentUpon>FormController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddSteel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddSteel.Designer.cs">
+      <DependentUpon>FormAddSteel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGlue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGlue.Designer.cs">
+      <DependentUpon>FormGlue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInnibition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInnibition.Designer.cs">
+      <DependentUpon>FormInnibition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrder.Designer.cs">
+      <DependentUpon>FormOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStack.Designer.cs">
+      <DependentUpon>FormStack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Material.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormSaw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSaw.Designer.cs">
+      <DependentUpon>FormSaw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sheet.cs" />
+    <Compile Include="Config.cs" />
+    <EmbeddedResource Include="FormCoil.resx">
+      <DependentUpon>FormCoil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormController.resx">
+      <DependentUpon>FormController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddSteel.resx">
+      <DependentUpon>FormAddSteel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGlue.resx">
+      <DependentUpon>FormGlue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInnibition.resx">
+      <DependentUpon>FormInnibition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrder.resx">
+      <DependentUpon>FormOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStack.resx">
+      <DependentUpon>FormStack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormSaw.resx">
+      <DependentUpon>FormSaw.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\Coil.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

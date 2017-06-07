@@ -1,0 +1,17 @@
+Y:\Developper\c#\IsoMetall\IsoMetall\bin\Release\IsoMetall.exe.config
+Y:\Developper\c#\IsoMetall\IsoMetall\bin\Release\IsoMetall.exe
+Y:\Developper\c#\IsoMetall\IsoMetall\bin\Release\IsoMetall.pdb
+Y:\Developper\c#\IsoMetall\IsoMetall\bin\Release\LibUsbDotNet.dll
+Y:\Developper\c#\IsoMetall\IsoMetall\obj\Release\IsoMetall.csprojResolveAssemblyReference.cache
+Y:\Developper\c#\IsoMetall\IsoMetall\obj\Release\IsoMetall.FormCoil.resources
+Y:\Developper\c#\IsoMetall\IsoMetall\obj\Release\IsoMetall.FormController.resources
+Y:\Developper\c#\IsoMetall\IsoMetall\obj\Release\IsoMetall.FormAddSteel.resources
+Y:\Developper\c#\IsoMetall\IsoMetall\obj\Release\IsoMetall.FormGlue.resources
+Y:\Developper\c#\IsoMetall\IsoMetall\obj\Release\IsoMetall.FormInnibition.resources
+Y:\Developper\c#\IsoMetall\IsoMetall\obj\Release\IsoMetall.FormStack.resources
+Y:\Developper\c#\IsoMetall\IsoMetall\obj\Release\IsoMetall.Properties.Resources.resources
+Y:\Developper\c#\IsoMetall\IsoMetall\obj\Release\IsoMetall.FormSaw.resources
+Y:\Developper\c#\IsoMetall\IsoMetall\obj\Release\IsoMetall.csproj.GenerateResource.Cache
+Y:\Developper\c#\IsoMetall\IsoMetall\obj\Release\IsoMetall.exe
+Y:\Developper\c#\IsoMetall\IsoMetall\obj\Release\IsoMetall.pdb
+Y:\Developper\c#\IsoMetall\IsoMetall\obj\Release\IsoMetall.FormOrder.resources
